@@ -1,5 +1,5 @@
 # dmonitor
-view-private-registry is a bash script for listing images in a private registry v2.  It does not require registry v2 to be running on the system, only the filesystem where the images are stored.  Docker search registry v2 functionality is currently not supported at the time of this writing. See discussion since Feb 2015: "propose registry search functionality #206" https://github.com/docker/distribution/issues/206
+Displays a live stream of one or more running containers’ resource usage statistics with the container name
 ## Install
 To install, change directory to the location you want to download the script directory.  Use git to pull or clone this script into directory.  If you do not have git then enter; "sudo apt-get install git".  On the github page of this script use the "HTTPS clone URL" with the 'git clone' command.
 
@@ -8,7 +8,7 @@ To install, change directory to the location you want to download the script dir
 
 Move the script or create a symbolic link to a location in your working path; example /usr/local/bin. To find directories in your working path use; "echo $PATH".
 
-    sudo ln -s $PWD/view-private-registry /usr/local/bin/view-private-registry
+    sudo ln -s $PWD/dmonitor /usr/local/bin/dmonitor
 
 ## Usage
     dmonitor
@@ -36,7 +36,7 @@ Move the script or create a symbolic link to a location in your working path; ex
  * Be easy to install and configure
 
 ## License
-view-private-registry is free software/open source.
+dmonitor is free software/open source.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so.
 
