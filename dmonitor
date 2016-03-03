@@ -1,0 +1,7 @@
+#!/bin/bash
+#	set -e
+# %W% %G% %U%
+#
+#       monitor local host docker contaier resource usage statistics
+#
+docker stats $(docker ps|grep -v "NAMES"|awk '{ print $NF }'|tr "\n" " ")
