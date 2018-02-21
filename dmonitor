@@ -1,11 +1,17 @@
 #!/bin/bash
+#	dmonitor	1.2.5	2018-02-20_21:52:04_CST uadmin six-rpi3b.cptx86.com  
+#	   add version flag 
 #	dmonitor	1.1	2017-12-20_20:40:40_CST uadmin
 #	added date and version mark to file
 #
 #       set -x
 #       set -v
-#	set -e
 #
 #       monitor local host docker contaier resource usage statistics
-#
+if [ "$1" == "--version" ] || [ "$1" == "-v" ] ; then
+        head -2 ${0} | awk {'print$2"\t"$3'}
+        exit 0
+fi
+###
 docker stats $(docker ps|grep -v "NAMES"|awk '{ print $NF }'|tr "\n" " ")
+###
