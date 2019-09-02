@@ -1,4 +1,6 @@
 #!/bin/bash
+#	dmonitor  1.4.18  2019-09-02T15:02:56.317792-05:00 (CDT)  https://github.com/BradleyA/dmonitor.git  uadmin  three-rpi3b.cptx86.com 1.3-2-gcb2284f  
+#	   dmonitor  add more tamplate.sh to test setup-git-TEST-cases.sh 
 #	dmonitor  1.3.15  2019-09-02T11:00:39.487071-05:00 (CDT)  https://github.com/BradleyA/dmonitor.git  uadmin  three-rpi3b.cptx86.com 1.2-9-g94df3f5  
 #	   dmonitor  add some production standards while testing git-TEST-commit-automation/setup-git-TEST-cases.sh 
 #	dmonitor	1.2.5	2018-02-20_21:52:04_CST uadmin six-rpi3b.cptx86.com  
@@ -19,12 +21,25 @@ if [[ "${DEBUG}" == "4" ]] ; then set -e    ; fi   # Exit command has a non-zero
 #
 BOLD=$(tput -Txterm bold)
 NORMAL=$(tput -Txterm sgr0)
-#
-#       monitor local host docker contaier resource usage statistics
-if [ "$1" == "--version" ] || [ "$1" == "-v" ] ; then
-        head -2 ${0} | awk {'print$2"\t"$3'}
-        exit 0
-fi
+
+#    Date and time function ISO 8601
+get_date_stamp() {
+  DATE_STAMP=$(date +%Y-%m-%dT%H:%M:%S.%6N%:z)
+  TEMP=$(date +%Z)
+  DATE_STAMP="${DATE_STAMP} (${TEMP})"
+}
+
+#    Fully qualified domain name FQDN hostname
+LOCALHOST=$(hostname -f)
+
+#    Version
+SCRIPT_VERSION=$(head -2 "${0}" | awk '{printf $3}')
+
+if [[ "${DEBUG}" == "1" ]] ; then get_date_stamp ; echo -e "${NORMAL}${DATE_STAMP} ${LOCALHOST} ${0}[$$] ${SCRIPT_VERSION} ${LINENO} ${USER} ${USER_ID}:${GROUP_ID} ${BOLD}[DEBUG]${NORMAL}  Operation started." 1>&2 ; fi
+
 ###
+
 docker stats $(docker ps|grep -v "NAMES"|awk '{ print $NF }'|tr "\n" " ")
+
+if [[ "${DEBUG}" == "1" ]] ; then get_date_stamp ; echo -e "${NORMAL}${DATE_STAMP} ${LOCALHOST} ${0}[$$] ${SCRIPT_VERSION} ${LINENO} ${USER} ${USER_ID}:${GROUP_ID} ${BOLD}[DEBUG]${NORMAL}  Operation finished." 1>&2 ; fi
 ###
