@@ -1,11 +1,24 @@
 #!/bin/bash
+#	dmonitor  1.3.15  2019-09-02T11:00:39.487071-05:00 (CDT)  https://github.com/BradleyA/dmonitor.git  uadmin  three-rpi3b.cptx86.com 1.2-9-g94df3f5  
+#	   dmonitor  add some production standards while testing git-TEST-commit-automation/setup-git-TEST-cases.sh 
 #	dmonitor	1.2.5	2018-02-20_21:52:04_CST uadmin six-rpi3b.cptx86.com  
 #	   add version flag 
 #	dmonitor	1.1	2017-12-20_20:40:40_CST uadmin
 #	added date and version mark to file
+###  dmonitor - live stream docker contaier resource usage statistics
+###  Production standard 3.0 shellcheck
+###  Production standard 5.1.160 Copyright
+#    Copyright (c) 2019 Bradley Allen
+#    MIT License is in the online DOCUMENTATION, DOCUMENTATION URL defined below.
+###  Production standard 1.3.496 DEBUG variable
+#    Order of precedence: environment variable, default code
+if [[ "${DEBUG}" == ""  ]] ; then DEBUG="0" ; fi   # 0 = debug off, 1 = debug on, 'export DEBUG=1', 'unset DEBUG' to unset environment variable (bash)
+if [[ "${DEBUG}" == "2" ]] ; then set -x    ; fi   # Print trace of simple commands before they are executed
+if [[ "${DEBUG}" == "3" ]] ; then set -v    ; fi   # Print shell input lines as they are read
+if [[ "${DEBUG}" == "4" ]] ; then set -e    ; fi   # Exit command has a non-zero exit status
 #
-#       set -x
-#       set -v
+BOLD=$(tput -Txterm bold)
+NORMAL=$(tput -Txterm sgr0)
 #
 #       monitor local host docker contaier resource usage statistics
 if [ "$1" == "--version" ] || [ "$1" == "-v" ] ; then
