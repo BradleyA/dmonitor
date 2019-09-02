@@ -1,0 +1,5 @@
+
+In /tmp/dmonitor/dmonitor line 42:
+docker stats $(docker ps|grep -v "NAMES"|awk '{ print $NF }'|tr "\n" " ")
+             ^-- SC2046: Quote this to prevent word splitting.
+
