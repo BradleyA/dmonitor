@@ -1,6 +1,4 @@
 #!/bin/bash
-# 	TEST/dmonitor/SA-setup.sh  1.5.20  2019-09-02T15:32:24.608166-05:00 (CDT)  https://github.com/BradleyA/dmonitor.git  uadmin  three-rpi3b.cptx86.com 1.4-1-ge56e27e  
-# 	   TEST/dmonitor/SA-setup.sh   initial commit push 
 # 	hooks/EXAMPLES/SA-setup.sh  2.28.309  2019-09-02T11:50:51.712298-05:00 (CDT)  https://github.com/BradleyA/git-TEST-commit-automation.git  uadmin  five-rpi3b.cptx86.com 2.27-1-g33b15cd  
 # 	   SA-setup.sh  change permission to 775 and update Production standard 1.3.496 DEBUG variable 
 # 	hooks/EXAMPLES/SA-setup.sh  2.4.279  2019-09-01T15:00:22.851795-05:00 (CDT)  https://github.com/BradleyA/git-TEST-commit-automation.git  uadmin  five-rpi3b.cptx86.com 2.3-5-gaab1b24  
