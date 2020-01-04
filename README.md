@@ -31,7 +31,7 @@ Move the script or create a symbolic link to a location in your working path; ex
 
 #### Traffic
   * <img alt="Clones" src="https://img.shields.io/static/v1?label=Clones&message=14&color=blue">  [Clones Table](images/clone.table.md)
-  * <img alt="Views" src="https://img.shields.io/static/v1?label=Views&message=203&color=blue">  [Views Table](images/view.table.md)
+  * <img alt="Views" src="https://img.shields.io/static/v1?label=Views&message=11&color=blue">  [Views Table](images/view.table.md)
   
 #### Author
 [<img id="twitter" src="images/twitter.png" width="50" a="twitter.com/bradleyaustintx/">
