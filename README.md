@@ -18,7 +18,6 @@ Move the script or create a symbolic link to a location in your working path; ex
     dmonitor
 
 ## Output
-
     CONTAINER                 CPU %               MEM USAGE / LIMIT   MEM %               NET I/O               BLOCK I/O
     compose3_nginx_1          0.01%               3.121 MB / 4 GB     0.08%               36.27 kB / 19.97 kB   0 B / 0 B
     compose3_redis_1          0.01%               6.57 MB / 4 GB      0.16%               18.44 kB / 648 B      0 B / 0 B
@@ -31,8 +30,8 @@ Move the script or create a symbolic link to a location in your working path; ex
     prometheus_promdash_1     0.01%               99.11 MB / 4 GB     2.48%               112.4 kB / 2.73 MB    0 B / 0 B
     prometheus_prometheus_1   0.03%               250.9 MB / 4 GB     6.27%               128.5 MB / 14 MB      0 B / 3.695 GB
 
- #### Traffic
-   * <img alt="Clones" src="https://img.shields.io/static/v1?label=Clones&message=29&color=blue">  [Clones Table](images/clone.table.md)
+#### Traffic
+  * <img alt="Clones" src="https://img.shields.io/static/v1?label=Clones&message=14&color=blue">  [Clones Table](images/clone.table.md)
   * <img alt="Views" src="https://img.shields.io/static/v1?label=Views&message=203&color=blue">  [Views Table](images/view.table.md)
   
 #### Author
@@ -41,7 +40,7 @@ Move the script or create a symbolic link to a location in your working path; ex
 ](https://github.com/BradleyA/)    [<img src="images/linkedin.png" style="max-width:100%;" >](https://www.linkedin.com/in/bradleyhallen)
 
 #### System OS script tested
- * Ubuntu 14.04.3 LTS
+ * Ubuntu 14.04.3 LTS (amd64,armv7l)
  * Ubuntu 16.04.3 LTS (armv7l)
 
 #### Design Principles
@@ -49,7 +48,7 @@ Move the script or create a symbolic link to a location in your working path; ex
  * Be usable as non-root
  * Be easy to install and configure
  
-## License
+#### License
 MIT License
 
 Copyright (c) 2019  [Bradley Allen](https://www.linkedin.com/in/bradleyhallen)
