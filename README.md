@@ -30,7 +30,7 @@ Move the script or create a symbolic link to a location in your working path; ex
     prometheus_prometheus_1   0.03%               250.9 MB / 4 GB     6.27%               128.5 MB / 14 MB      0 B / 3.695 GB
 
 #### Traffic
-  * <img alt="Clones" src="https://img.shields.io/static/v1?label=Clones&message=14&color=blue">  [Clones Table](images/clone.table.md)
+  * <img alt="Clones" src="https://img.shields.io/static/v1?label=Clones&message=25&color=blue">  [Clones Table](images/clone.table.md)
   * <img alt="Views" src="https://img.shields.io/static/v1?label=Views&message=97&color=blue">  [Views Table](images/view.table.md)
   
 #### Author
