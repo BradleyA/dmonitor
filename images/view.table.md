@@ -1,11 +1,11 @@
 #### 2020 Visitors
-Date:             | 01-06 | 01-13
-|:---             |:---:  |:---:
-Views:            |  13   |   60
-Unique  vistors:  |   1   |    1
+Date:             | 01-06 | 01-13 | 01-27
+|:---             |:---:  |:---:  |:---:
+Views:            |   13  |   60  |   26
+Unique  vistors:  |    1  |    1  |    1
 
-Total views: 73
-###### Updated: 2020-01-31
+Total views: 99
+###### Updated: 2020-02-04
 
 #### 2019 Visitors
 Date:   | 08-12 | 08-26 | 09-02 | 12-23 | 12-30
