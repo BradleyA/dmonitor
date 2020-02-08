@@ -4,7 +4,7 @@ Displays a live stream of one or more running containers’ resource usage stati
 #### If you like this repository, select in the upper-right corner, star, thank you.
 
 ## Install
-To install, change directory to the location you want to download the script directory.  Use git to pull or clone this script into directory.  If you do not have git then enter; "sudo apt-get install git".  On the github page of this script use the "HTTPS clone URL" with the 'git clone' command.
+To install, change directory to the location you want to download the script directory.  Use git to pull or clone this script into directory.  If you do not have git then enter; "sudo apt-get install git" if using Ubuntu.  On the github page of this script use the "HTTPS clone URL" with the 'git clone' command.
 
     git clone https://github.com/BradleyA/dmonitor.git
     cd dmonitor
