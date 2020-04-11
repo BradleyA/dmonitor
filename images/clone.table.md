@@ -17,6 +17,6 @@ Unique   clones:  |       1       |       3  |      1  |      1  |      8
 Total clones: 25
 ###### Updated: 2020-01-16
 
-[Return to README](https://github.com/BradleyA/dmonitor#traffic)
+[Return to README](https://github.com/BradleyA/dmonitor#dmonitor)
 
 **Note**  Data collection stopped between 10/14 & 12/9
