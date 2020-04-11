@@ -1,7 +1,9 @@
 # dmonitor
-[![Stable Release](https://img.shields.io/badge/Release-1.2-blue.svg)](https://github.com/BradleyA/dmonitor/releases)
-[![GitHub commits](https://img.shields.io/github/commits-since/BradleyA/Search-docker-registry-v2-script/v2.2.svg)](https://github.com/BradleyA/Search-docker-registry-v2-script/commits/)
+[![Stable Release](https://img.shields.io/badge/Release-1.2-blue.svg)](https://github.com/BradleyA/dmonitor/releases/tag/1.2)
+[![GitHub commits](https://img.shields.io/github/commits-since/BradleyA/dmonitor/1.2.svg)](https://github.com/BradleyA/dmonitor/commits/)
 [![MIT License](http://img.shields.io/badge/License-MIT-red.png)](LICENSE)
+[<img alt="Clones" src="https://img.shields.io/static/v1?label=Clones&message=32&color=blue">](images/clone.table.md)
+[<img alt="Views" src="https://img.shields.io/static/v1?label=Views&message=157&color=blue">](images/view.table.md)
 
 Displays a live stream of one or more running containers’ resource usage statistics with the container name
 
@@ -32,10 +34,6 @@ Move the script or create a symbolic link to a location in your working path; ex
     prometheus_exporter_1     0.00%               909.3 kB / 4 GB     0.02%               3.162 kB / 648 B      0 B / 0 B
     prometheus_promdash_1     0.01%               99.11 MB / 4 GB     2.48%               112.4 kB / 2.73 MB    0 B / 0 B
     prometheus_prometheus_1   0.03%               250.9 MB / 4 GB     6.27%               128.5 MB / 14 MB      0 B / 3.695 GB
-
-#### Traffic
-  * <img alt="Clones" src="https://img.shields.io/static/v1?label=Clones&message=32&color=blue">  [Clones Table](images/clone.table.md)
-  * <img alt="Views" src="https://img.shields.io/static/v1?label=Views&message=157&color=blue">  [Views Table](images/view.table.md)
   
 #### Author
 [<img id="twitter" src="images/twitter.png" width="50" a="twitter.com/bradleyaustintx/">
