@@ -1,4 +1,8 @@
 # dmonitor
+[![Stable Release](https://img.shields.io/badge/Release-v2.2-blue.svg)](https://github.com/BradleyA/Search-docker-registry-v2-script/releases/tag/v2.2)
+[![GitHub commits](https://img.shields.io/github/commits-since/BradleyA/Search-docker-registry-v2-script/v2.2.svg)](https://github.com/BradleyA/Search-docker-registry-v2-script/commits/)
+[![MIT License](http://img.shields.io/badge/License-MIT-red.png)](LICENSE)
+
 Displays a live stream of one or more running containers’ resource usage statistics with the container name
 
 #### If you like this repository, select in the upper-right corner, star, thank you.
