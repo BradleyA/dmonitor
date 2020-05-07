@@ -1,14 +1,13 @@
-#### 2020 Git clones
-Date:             | 01-13 | 01-27
-|:---             |:---:  |:---:  
-Clones:           |    7  |    7
-Unique   clones:  |    7  |    6 
+#### 2020 GitHub clones
+Date:		 |   01-13   |       01-27   |       02-03   |  02-17  |  03-09  |  03-23  |  04-06  |  04-13
+|:---    |:---:  |:---:  |:---:  |:---:  |:---:  |:---:  |:---:  |:---:
+Clones:	 |     7       |       7       |       2       |  1      |  1      |  1      |  5      |  6
+Unique   clones:  | 7       |       6       |       2  |      1  |      1  |      1  |      5  |      4
 
-Total clones: 14
-###### Updated: 2020-02-04
+Total clones: 42
+###### Updated: 2020-05-07
 
-
-#### 2019 Git clones
+#### 2019 GitHub clones
 Date:    |        08-05   |       09-02   |  12-16  |  12-23  |  12-30
 |:---    |:---:   |:---:  |:---:  |:---:  |:---:
 Clones:  |        1       |       11      |  1      |  1  |  11
@@ -16,7 +15,6 @@ Unique   clones:  |       1       |       3  |      1  |      1  |      8
 
 Total clones: 25
 ###### Updated: 2020-01-16
+**Note**  Data collection stopped between 10/14/2019 & 12/9/2019
 
 [Return to README](https://github.com/BradleyA/dmonitor#dmonitor)
-
-**Note**  Data collection stopped between 10/14 & 12/9
