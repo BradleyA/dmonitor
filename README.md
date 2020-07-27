@@ -3,7 +3,7 @@
 [![GitHub commits](https://img.shields.io/github/commits-since/BradleyA/dmonitor/1.2.svg)](https://github.com/BradleyA/dmonitor/commits/)
 [![MIT License](http://img.shields.io/badge/License-MIT-red.png)](LICENSE)
 [<img alt="Clones" src="https://img.shields.io/static/v1?label=Clones&message=75&color=blue">](images/clone.table.md)
-[<img alt="Views" src="https://img.shields.io/static/v1?label=Views&message=724&color=blue">](images/view.table.md)
+[<img alt="Views" src="https://img.shields.io/static/v1?label=Views&message=424&color=blue">](images/view.table.md)
 
 Displays a live stream of one or more running containers’ resource usage statistics with the container name
 
