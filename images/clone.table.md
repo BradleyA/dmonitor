@@ -4,7 +4,7 @@ Date:      |       01-13   |       01-27   |       02-03   |       02-17   |    
 Clones:    |      7       |       7       |       2       |       1       |       1      |  1      |  5      |  6      |  5      |  2      |  1
 Unique   clones:  |       7       |       6       |       2       |       1       |      1  |      1  |      5  |      4  |      5  |      1  |      1
 
-Total clones: 50
+Total clones: 38
 
 ###### Updated: 2020-05-07
 
