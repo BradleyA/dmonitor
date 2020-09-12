@@ -1,7 +1,5 @@
 # dmonitor
-[![Stable Release](https://img.shields.io/badge/Release-1.2-blue.svg)](https://github.com/BradleyA/dmonitor/releases/tag/1.2)
-[![GitHub commits](https://img.shields.io/github/commits-since/BradleyA/dmonitor/1.2.svg)](https://github.com/BradleyA/dmonitor/commits/)
-[![MIT License](http://img.shields.io/badge/License-MIT-red.png)](LICENSE)
+
 [<img alt="Clones" src="https://img.shields.io/static/v1?label=Clones&message=63&color=blue">](images/clone.table.md)
 [<img alt="Views" src="https://img.shields.io/static/v1?label=Views&message=350&color=blue">](images/view.table.md)
 
@@ -10,7 +8,7 @@
 [![GitHub Commits Since](https://img.shields.io/github/commits-since/BradleyA/dmonitor/1.2?color=orange)](https://github.com/BradleyA/dmonitor/commits/)
 [![GitHub Last Commits](https://img.shields.io/github/last-commit/BradleyA/dmonitor.svg)](https://github.com/BradleyA/dmonitor/commits/)
 
-[![GitHub Open Issues](https://img.shields.io/github/issues/BradleyA/?color=purple)](https://github.com/BradleyA/dmonitor/issues?q=is%3Aopen+is%3Aissue)
+[![GitHub Open Issues](https://img.shields.io/github/issues/BradleyA/dmonitor?color=purple)](https://github.com/BradleyA/dmonitor/issues?q=is%3Aopen+is%3Aissue)
 [![GitHub Closed Issues](https://img.shields.io/github/issues-closed/BradleyA/dmonitor?color=purple)](https://github.com/BradleyA/dmonitor/issues?q=is%3Aclosed+is%3Aissue)
 [<img alt="GitHub Clones" src="https://img.shields.io/static/v1?label=Clones&message=190&color=blueviolet">](https://github.com/BradleyA/dmonitor/blob/master/images/clone.table.md)
 [<img alt="GitHub Views" src="https://img.shields.io/static/v1?label=Views&message=3071&color=blueviolet">](https://github.com/BradleyA/dmonitor/blob/master/images/view.table.md)
