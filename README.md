@@ -18,7 +18,7 @@
 
 Displays a live stream of one or more running containers’ resource usage statistics with the container name
 
-#### If you like this repository, select in the upper-right corner, star, thank you.
+#### If you like this repository, select in the upper-right corner, [![GitHub stars](https://img.shields.io/github/stars/BradleyA/dmonitor.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/BradleyA/dmonitor/stargazers/), thank you.
 
 ## Clone
 To Install, change into a directory that you want to download the scripts. Use git to pull or clone these scripts into the directory. If you do not have Git installed then enter; "sudo apt-get install git" if using Debian/Ubuntu. Other Linux distribution install methods can be found here: https://git-scm.com/download/linux. On the GitHub page of this script use the "HTTPS clone URL" with the 'git clone' command.
