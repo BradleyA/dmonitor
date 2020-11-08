@@ -30,6 +30,8 @@ Move the script or create a symbolic link to a location in your working path; ex
 
     sudo ln -s $PWD/dmonitor /usr/local/bin/dmonitor
 
+[Return to top](https://github.com/BradleyA/dmonitor/blob/master/README.md#dmonitor)
+
 ## Usage
     dmonitor
 
@@ -45,6 +47,8 @@ Move the script or create a symbolic link to a location in your working path; ex
     prometheus_exporter_1     0.00%               909.3 kB / 4 GB     0.02%               3.162 kB / 648 B      0 B / 0 B
     prometheus_promdash_1     0.01%               99.11 MB / 4 GB     2.48%               112.4 kB / 2.73 MB    0 B / 0 B
     prometheus_prometheus_1   0.03%               250.9 MB / 4 GB     6.27%               128.5 MB / 14 MB      0 B / 3.695 GB
+
+[Return to top](https://github.com/BradleyA/dmonitor/blob/master/README.md#dmonitor)
 
 ----
 
